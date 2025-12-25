@@ -1,0 +1,29 @@
+Build-App:
+  script:
+    - echo "Building application"
+    - echo "Done"
+
+Run_Unit_Test:
+  before_script:
+    - echo "Prepare testing data"
+  script:
+    - echo "Run unit test"
+  after_script:
+    - echo "Clean up temporary data"
+
+Run_Lint:
+  script:
+    - echo "Running Linter"
+
+Build_image:
+  script:
+    - echo "Building images"
+
+Push_image:
+  script:
+    - echo "Pushing images"
+
+Deploy:
+  script:
+    - echo "Deploy staging server"
+
