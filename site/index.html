@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>IronPulse — Тренажёрный зал</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a class="logo" href="#top">IronPulse</a>
+
+      <nav class="nav">
+        <a href="#about">О зале</a>
+        <a href="#plans">Абонементы</a>
+        <a href="#coaches">Тренеры</a>
+        <a href="#video">Видео</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+
+      <a class="btn btn--small" href="#plans">Записаться</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__text">
+          <h1>Тренируйся уверенно.<br/>Стань сильнее за 30 дней.</h1>
+          <p class="lead">
+            IronPulse — тренажёрный зал с современным оборудованием, группами и персональными тренировками.
+          </p>
+
+          <div class="hero__meta">
+            <div class="pill">24/7</div>
+            <div class="pill">Свободные веса</div>
+            <div class="pill">Групповые занятия</div>
+          </div>
+
+          <div class="hero__actions">
+            <a class="btn" href="#plans">Выбрать абонемент</a>
+            <a class="btn btn--ghost" href="#about">Узнать больше</a>
+          </div>
+
+          <div class="note">
+            📍 Адрес и контакты ниже — можно заменить под себя.
+          </div>
+        </div>
+
+        <aside class="hero__card">
+          <h3>Сегодня в зале</h3>
+          <ul class="list">
+            <li><span class="dot dot--ok"></span> Кардио зона: свободно</li>
+            <li><span class="dot dot--ok"></span> Силовая зона: умеренно</li>
+            <li><span class="dot dot--wait"></span> Группы: по расписанию</li>
+          </ul>
+
+          <div class="card__line"></div>
+
+          <h4>Часы работы</h4>
+          <p class="muted">Пн–Вс: 00:00–24:00</p>
+
+          <h4>Пробное</h4>
+          <p class="muted">Первое посещение — бесплатно (по записи).</p>
+        </aside>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>О зале</h2>
+        <p class="section__text">
+          У нас есть всё для силовых тренировок, функционала и восстановления: свободные веса, тренажёры,
+          кардио, растяжка и зона мобилити.
+        </p>
+
+        <div class="cards">
+          <article class="card">
+            <h3>Оборудование</h3>
+            <p>Силовые тренажёры, стойки, гантели, штанги, платформы, функциональные станции.</p>
+          </article>
+
+          <article class="card">
+            <h3>Комфорт</h3>
+            <p>Раздевалки, душ, шкафчики, питьевая вода, вентиляция, чистота и порядок.</p>
+          </article>
+
+          <article class="card">
+            <h3>Поддержка</h3>
+            <p>Тренер подберёт программу и технику, чтобы ты прогрессировал без травм.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="plans" class="section section--alt">
+      <div class="container">
+        <h2>Абонементы</h2>
+        <p class="section__text">Цены примерные — можешь заменить на свои.</p>
+
+        <div class="pricing">
+          <article class="price">
+            <div class="price__head">
+              <h3>Старт</h3>
+              <div class="price__value">€19<span>/нед</span></div>
+            </div>
+            <ul class="price__list">
+              <li>Доступ в зал 24/7</li>
+              <li>1 вводная консультация</li>
+              <li>Базовая программа</li>
+            </ul>
+            <a class="btn btn--block" href="#contacts">Оформить</a>
+          </article>
+
+          <article class="price price--accent">
+            <div class="badge">Популярно</div>
+            <div class="price__head">
+              <h3>Фит</h3>
+              <div class="price__value">€49<span>/мес</span></div>
+            </div>
+            <ul class="price__list">
+              <li>Доступ в зал 24/7</li>
+              <li>Групповые тренировки</li>
+              <li>Контроль прогресса</li>
+            </ul>
+            <a class="btn btn--block" href="#contacts">Оформить</a>
+          </article>
+
+          <article class="price">
+            <div class="price__head">
+              <h3>Про</h3>
+              <div class="price__value">€99<span>/мес</span></div>
+            </div>
+            <ul class="price__list">
+              <li>Доступ 24/7 + группы</li>
+              <li>4 персональные тренировки</li>
+              <li>План питания (база)</li>
+            </ul>
+            <a class="btn btn--block" href="#contacts">Оформить</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="coaches" class="section">
+      <div class="container">
+        <h2>Тренеры</h2>
+        <p class="section__text">Короткие карточки тренеров (можно заменить имена/описания).</p>
+
+        <div class="team">
+          <article class="member">
+            <div class="avatar">AK</div>
+            <div>
+              <h3>Алина К.</h3>
+              <p class="muted">Силовой тренинг, техника, постановка базы.</p>
+            </div>
+          </article>
+
+          <article class="member">
+            <div class="avatar">DM</div>
+            <div>
+              <h3>Дмитрий М.</h3>
+              <p class="muted">Функционал, выносливость, снижение веса.</p>
+            </div>
+          </article>
+
+          <article class="member">
+            <div class="avatar">NS</div>
+            <div>
+              <h3>Наталья С.</h3>
+              <p class="muted">Растяжка, мобилити, восстановление.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="video" class="section section--alt">
+      <div class="container">
+        <h2>Видео</h2>
+        <p class="section__text">
+          Положи файл <b>video.mp4</b> в папку <b>site/</b> (рядом с index.html), и видео появится ниже.
+        </p>
+
+        <div class="video">
+          <video controls preload="metadata">
+            <source src="video.mp4" type="video/mp4" />
+            Ваш браузер не поддерживает видео.
+          </video>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacts" class="section">
+      <div class="container">
+        <h2>Контакты</h2>
+
+        <div class="contacts">
+          <div class="contacts__box">
+            <h3>Адрес</h3>
+            <p class="muted">Rue Exemple 12, 75000 Paris</p>
+
+            <h3>Телефон</h3>
+            <p class="muted">+33 0 00 00 00 00</p>
+
+            <h3>Почта</h3>
+            <p class="muted">hello@ironpulse.example</p>
+          </div>
+
+          <form class="form">
+            <h3>Заявка на пробное</h3>
+            <label>
+              Имя
+              <input type="text" placeholder="Например: Ирина" required />
+            </label>
+
+            <label>
+              Телефон
+              <input type="tel" placeholder="+33 ..." required />
+            </label>
+
+            <label>
+              Цель
+              <select>
+                <option>Набор массы</option>
+                <option>Снижение веса</option>
+                <option>Выносливость</option>
+                <option>Поддержание формы</option>
+              </select>
+            </label>
+
+            <button class="btn btn--block" type="submit">Отправить</button>
+            <p class="muted small">Форма демонстрационная, без backend.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="muted">© <span id="y"></span> IronPulse Gym</p>
+      <a class="muted" href="#top">Наверх ↑</a>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
